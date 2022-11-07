@@ -11,6 +11,8 @@ const App = ({ books }) => {
             <h3>{books.author}</h3>
             <p>{books.shortDescription}</p>
             <img src={books.coverImageUrl} className="image" alt="cover image" /> 
+            <br/>
+            <br/>
             <XtraInfo
             url={books.url}
             publisher={books.publisher}
